@@ -27,11 +27,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 **Решение**
 
-1.1 Установка MySQL произведена в соответсвии с [инструкцией на digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04), результат приведён на скришоте ниже:
+1.1 Установка MySQL произведена в соответсвии с [инструкцией на digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
 
 
-
-1.2 Создал учётную запись sys_tempo:
+1.2 Создал учётную запись sys_temp:
 
 
 
