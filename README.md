@@ -27,13 +27,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 **Решение**
 
-1.1 Установка MySQL произведена в соответсвии с [инструкцией на digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
+1.1 Установка MySQL выполнена с помощью [инструкциии на digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04)
 ![image 1](png/3.jpg)
 
 1.2 Создал учётную запись sys_temp (написало ошибку,потому что учетная запись уже существует, создал пару минут назад); 
-1.3. Запрос на получение списка пользователей в базе данных;
-1.4. Дайте все права для пользователя sys_temp;
-1.5. Выполните запрос на получение списка прав для пользователя sys_temp:
+1.3. Запросил список пользователей в базе данных;
+1.4. Дал все права для пользователя sys_temp;
+1.5. Запросил список прав для пользователя sys_temp:
 ![image 2](png/2.jpg)
 
 
@@ -43,6 +43,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.8. Сформирал в DBeaver ER-диаграмму получившейся базы данных.
 ![image 4](png/5.jpg)
+
 ---
 
 ### Задание 2
