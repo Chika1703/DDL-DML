@@ -42,7 +42,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ![image 2](png/2.jpg)
 
 
-1.6. Переподключитесь к базе данных от имени sys_temp;
+1.6. Переподключился к базе данных от имени sys_temp;
 
 1.7. Восстановил дамп в базу данных sakila:
 
