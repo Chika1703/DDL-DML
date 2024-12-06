@@ -55,10 +55,4 @@ customer         | customer_id
 
 **Решение**
 
-Скришот выполнения команды 
-```
-SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'sakila' AND COLUMN_KEY = 'PRI' ORDER BY table_name;
-```
-
-<img src="images/Task_2.png" alt="Task_2.png" width="200" height="auto">
-
+![image 5](png/6.jpg)
